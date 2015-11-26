@@ -1,0 +1,32 @@
+div  div {
+  width: 80px;
+  height: 80px;
+  padding:10px;
+  background-color:#fa4;
+  /*margin:20px;*/
+  border:1px solid black;
+  
+}
+.blocks{
+  padding: 20px;
+  margin:20px;
+}
+
+/*#four{
+transform: translate(150px,20px) rotate(300deg)  ;
+}
+#one{
+  transform: translate(10px,-45px) rotate(209deg);*/
+
+#four{
+  transform: translate(138px,65px) rotate(300deg);
+}
+#three{
+transform: rotate(209deg);
+}
+#two{
+  transform: translate(38px,36px) rotate(120deg);
+}
+#one{
+  transform: translate(175px,-104px) rotate(30deg);
+}
