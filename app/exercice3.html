@@ -10,6 +10,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="styles/exo3.css" >
+    <style>
+  .thumb {
+    height: 100px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto*/
+
+  }
+</style>
   </head>
   <body >
     <div class="container">
@@ -28,7 +39,7 @@
           <div class="row">
         <div class="col-sm-12">
           <div class="page-header page-header-with-icon no-mg-t" style="margin-bottom:20px">
-            <i class='fa-icon-file-text '></i>
+            <i class='fa-icon-file-text'></i>
             <h2>Mon Formulaire</h2>
           </div>
 
@@ -62,7 +73,7 @@
                       <div class='form-group'>
                       <label class='col-md-3 control-label' for='input-select-multi'>Type de bien</label>
                       <div class='col-md-5'>
-                        <select class='form-control' id='input-select-multi' multiple='multiple'>
+                        <select class='form-control' id='input-select-multi' >
                           <option>Maison</option>
                           <option>Appartement</option>
                           <option>Terrain</option>
@@ -91,10 +102,39 @@
                         </select>
                       </div>
                     </div>
+                    <div class='form-group'>
+                      <label class='col-md-3 control-label' for='input-select'>Select</label>
+                      <div class='col-md-5'>
+                        <select id='input-select' class='form-control' multiple='multiple' onclick="report(this.value)">
+                          <option>Cave</option>
+                          <option>Garage</rp></option>
+                          <option>Terasse</option>
+                          <option>Jacuzzi</option>
+                        </select>
+                      </div>
+                      </div>
+                      <div class='form-group'>
+                     <label class='col-md-3 control-label' for='input-textarea'>Déscription</label>
+                     <div class='col-md-5'>
+                       <textarea class='form-control' id='input-textarea' placeholder="Déscription de l'annonce" rows='3'></textarea>
+                     </div>
+                   </div>
+                  <div class="form-group">
+                    <div class="col-md-5">
+
+                    </div>
+                   <input type="file" id="files" name="files[]" multiple />
+                   <output id="list"></output>
                   </div>
-                  </form>
+                </div>
+              </form>
+
+
+
     </div>
   </div>
+<script type="text/javascript" src="scripts/monscript2.js">
 
+</script>
   </body>
 </html>
