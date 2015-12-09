@@ -1,0 +1,18 @@
+.h1
+{
+  color: green;
+  text-align: center;
+  font-family: 'cursive'cursive;
+    font-size: 2.625em;
+    font-weight: 500;
+    line-height: 1.25;
+    margin: 0 0.575em;
+    max-width: 90%;
+
+  }
+.autre-couleur{
+/*background: grey;*/
+color: grey;
+
+/*background-image: url(http://www.menucool.com/slider/jsImgSlider/images/image-slider-2.jpg) ;*/
+  }

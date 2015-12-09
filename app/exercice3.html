@@ -1,1 +1,100 @@
-TODO
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercice3</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" > -->
+    <link rel="stylesheet" href="styles/cool.css"  media="all" id="colors" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css"   media="all" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles/exo3.css" >
+  </head>
+  <body >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="jumbotron autre-couleur">
+              <h1 class="h1">leMauvaisCoin</h1>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- titre du formulaire -->
+    <div id='main-content' style="padding-top: 20px;padding-bottom: 20px">
+      <div class='container'>
+          <div class="row">
+        <div class="col-sm-12">
+          <div class="page-header page-header-with-icon no-mg-t" style="margin-bottom:20px">
+            <i class='fa-icon-file-text '></i>
+            <h2>Mon Formulaire</h2>
+          </div>
+
+        </div>
+      </div>
+      </div>
+      </div>
+    <!-- fin du titre -->
+  <div class="row">
+    <div class="col-sm-12">
+                <form class="form form-horizontal" method="post" action="#" accept-charset="UTF-8"><input name="authenticity_token" type="hidden" />
+                  <div class='form-group'>
+                      <label class='col-md-3 control-label' for='input-text'>Titre de l'annoce </label>
+                      <div class='col-md-5'>
+                        <input class='form-control' id='input-text' placeholder="Insérer Le titre de l'annonce" type='text'>
+                      </div>
+                    </div>
+                      <div class='form-group'>
+                          <label class='col-md-3 control-label' for='input-text'>Prix</label>
+                          <div class='col-md-5'>
+                            <input class='form-control' id='input-text'  placeholder="Insérer Le Prix" type='text'>
+                          </div>
+                      </div>
+                      <div class='form-group'>
+                          <label class='col-md-3 control-label' for='input-text'>Date de disponibilité</label>
+                          <div class='col-md-5'>
+                            <input class='form-control' id='input-text'  placeholder="Insérer La date de disponibilité" type='text'>
+                          </div>
+                      </div>
+
+                      <div class='form-group'>
+                      <label class='col-md-3 control-label' for='input-select-multi'>Type de bien</label>
+                      <div class='col-md-5'>
+                        <select class='form-control' id='input-select-multi' multiple='multiple'>
+                          <option>Maison</option>
+                          <option>Appartement</option>
+                          <option>Terrain</option>
+                          <option>Studio</option>
+                          <option>Garage</option>
+                        </select>
+                      </div>
+                    </div>
+                      <div class='form-group'>
+                          <label class='col-md-3 control-label' for='input-text'>La surface</label>
+                          <div class='col-md-5'>
+                            <input class='form-control' id='input-text'  placeholder="Insérer La Surface en m²" type='text'>
+                          </div>
+                      </div>
+                      <div class='form-group'>
+                      <label class='col-md-3 control-label' for='input-select-multi'>Classe Energtique</label>
+                      <div class='col-md-5'>
+                        <select class='form-control' id='input-select-multi' multiple='multiple'>
+                          <option style="color:green"> 0 - 50 classe A.</option>
+                          <option style="color:rgb(48, 228, 32)">51 - 90 classe B</option>
+                          <option style="color:rgb(182, 254, 8)">91 - 150 classe C</option>
+                          <option style="color:rgb(127, 133, 18)">151 - 230 classe D</option>
+                          <option style="color:rgba(237, 134, 12, 0.53)">231 - 330 classe E</option>
+                          <option style="color:rgb(201, 105, 50)">331 - 450 classe F</option>
+                          <option style="color:rgb(240, 18, 18)">451 - ... classe G</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  </form>
+    </div>
+  </div>
+
+  </body>
+</html>
